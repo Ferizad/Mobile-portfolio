@@ -32,9 +32,10 @@
   background-repeat: no-repeat;
   padding: 100px 0;
 }
+
 .with1 {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .section1 h1 {
@@ -79,4 +80,3 @@
 .contacts ul li {
   text-decoration: none;
 }
-
