@@ -23,15 +23,18 @@
 
 .header1 h3 a {
   text-decoration: none;
+  color: #6070ff;
 }
 
 .section1 {
   background: url(media/background1.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  width: 90%;
-  margin: auto;
   padding: 100px 0;
+}
+.with1 {
+    width: 90%;
+    margin: auto;
 }
 
 .section1 h1 {
@@ -66,7 +69,7 @@
 
 .contacts ul {
   display: flex;
-  gap: 15px;
+  gap: 18px;
   align-items: left;
   list-style: none;
   padding-top: 15px;
