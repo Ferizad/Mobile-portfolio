@@ -16,6 +16,7 @@
 
 .header1 h3 {
   font-weight: 700;
+  font-style: bold;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -24,6 +25,7 @@
 .header1 h3 a {
   text-decoration: none;
   color: #6070ff;
+  font-size: 18px;
 }
 
 .section1 {
@@ -45,6 +47,7 @@
   align-items: left;
   font-weight: 700;
   width: 290px;
+  font-style: bold;
 }
 
 .section1 p {
@@ -70,7 +73,7 @@
 
 .contacts ul {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   align-items: left;
   list-style: none;
   padding-top: 15px;
@@ -131,8 +134,6 @@
 
 .textdecoration {
   text-decoration: none;
-  width: 327px;
-  height: 101px;
 }
 
 .article1 ul,
@@ -234,17 +235,17 @@
 .about_self_section {
   width: 90%;
   margin: auto;
-  padding: 40px 0 40px 0;
+  padding: 40px 0;
 }
 
 .font7 {
+  font-style: bold;
+  width: 295px;
   color: #172b4d;
   font-size: 40px;
-  align-items: center;
   font-weight: 700;
   line-height: 52px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
 }
 
 .about_self_section h5 {
@@ -260,8 +261,7 @@
 
 .about_self_section ul {
   display: flex;
-  gap: 15px;
-  align-items: left;
+  gap: 20px;
   list-style: none;
   padding: 30px 0 15px 10px;
 }
@@ -279,20 +279,15 @@
   padding: 20px 0;
 }
 
-.about_self_section p {
-  color: #344563;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-}
-
 .about_section_flex2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+}
+
+.icons {
+  align-items: center;
 }
 
 .about_section_align1 {
@@ -317,4 +312,15 @@
   font-size: 32px;
   align-items: left;
   font-weight: 700;
+}
+
+@media only screen and (min-width: 425px) {
+  .article1,
+  .article2,
+  .article3,
+  .article4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
