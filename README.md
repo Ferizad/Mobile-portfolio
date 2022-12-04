@@ -23,7 +23,10 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
+=======
 <!-- SUPPORT -->
+>>>>>>> af642373f43c6a0e09147fdb7af75fd4084f44fb
 
 ## ⭐️ Show your support <a name="support"></a>
 Feel free to leave comments and contact via given authors information above.
@@ -31,7 +34,10 @@ Feel free to leave comments and contact via given authors information above.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
+=======
 <!-- ACKNOWLEDGEMENTS -->
+>>>>>>> af642373f43c6a0e09147fdb7af75fd4084f44fb
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -50,6 +56,7 @@ This project has done with the huge support of my Microverse coding partners and
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
