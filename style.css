@@ -250,6 +250,8 @@
 
 .btn_1 {
   color: #6070ff;
+  width: 142px;
+height: 48px;
 }
 
 .article1 button:hover,
@@ -367,7 +369,7 @@
   border-top-left-radius: 100px;
   display: flex;
   justify-content: center;
-  background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(./img/background2.jpg);
+  background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(media/background2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right 5px bottom 10%;
@@ -503,7 +505,7 @@ label {
   }
 
   .section1_box {
-    background: url(./img//background3.jpg);
+    background: url(media/background3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 98%;
@@ -768,7 +770,7 @@ label {
     border-top-left-radius: 100px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(./img/background4.jpg);
+    background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(media/background4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
