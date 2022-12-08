@@ -23,21 +23,11 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<<<<<<< HEAD
-=======
-<!-- SUPPORT -->
->>>>>>> af642373f43c6a0e09147fdb7af75fd4084f44fb
-
 ## ⭐️ Show your support <a name="support"></a>
 Feel free to leave comments and contact via given authors information above.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<<<<<<< HEAD
-=======
-<!-- ACKNOWLEDGEMENTS -->
->>>>>>> af642373f43c6a0e09147fdb7af75fd4084f44fb
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -46,10 +36,6 @@ Feel free to leave comments and contact via given authors information above.
 This project has done with the huge support of my Microverse coding partners and with all given information this week and google)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 ## 📝 License <a name="license"></a>
 
