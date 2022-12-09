@@ -34,7 +34,6 @@
 
 .header1 h3 a {
   text-decoration: none;
-  color: #6070ff;
   font-size: 18px;
 }
 
@@ -240,7 +239,8 @@
 .article2 button,
 .article3 button,
 .article4 button,
-.about_self_section button {
+.about_self_section button,
+.btn_1 {
   padding: 10px 10px;
   border: 1px solid #6070ff;
   border-radius: 10px;
@@ -261,6 +261,7 @@
 .about_self_section button:hover,
 .btn_1:hover {
   padding: 10px 15px;
+  border: 1px solid #fff;
   background-color: #6070ff;
 }
 
@@ -416,6 +417,7 @@ label {
   padding: 15px;
   outline: none;
   border-radius: 10px;
+  border: 1px solid #cfd8dc;
 }
 
 .input1::placeholder {
@@ -440,6 +442,7 @@ label {
   padding: 10px 15px;
   outline: none;
   border-radius: 10px;
+  border: 1px solid #cfd8dc;
 }
 
 .textarea1::placeholder {
@@ -457,6 +460,17 @@ label {
 
 .list_style {
   list-style: none;
+}
+
+@media only screen and (min-width: 425px) {
+  .article1,
+  .article2,
+  .article3,
+  .article4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -500,20 +514,20 @@ label {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 70px 0 0 0;
+    padding: 30px 0 0 0;
     border-bottom-left-radius: 100px;
   }
 
   .section1_box {
     background: url(media/background3.jpg);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 98%;
     margin: auto;
-    height: 440px;
   }
 
   .section1_box .intro {
+    padding: 150px 0 0 0;
     width: 80%;
     margin: auto;
   }
@@ -550,6 +564,7 @@ label {
   .works_section {
     display: flex;
     flex-direction: column;
+    gap: 40px;
     justify-content: center;
     width: 95%;
     margin: auto;
@@ -560,6 +575,7 @@ label {
   .works_section .article3,
   .works_section .article4 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 5px 0;
     gap: 25px;
