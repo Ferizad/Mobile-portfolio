@@ -6,6 +6,10 @@ My first mobile portfolio project
 -HTML
 -CSS</a>
 
+## Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://ferizad.github.io/Mobile-portfolio/)
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Ferizad**
@@ -34,6 +38,12 @@ Feel free to leave comments and contact via given authors information above.
 > Give credit to everyone who inspired your codebase.
 
 This project has done with the huge support of my Microverse coding partners and with all given information this week and google)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project presentation <a name="acknowledgements"></a>
+
+Link: https://www.loom.com/share/e108d45f0ae4486c9d6a40f7d45a76ba
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
