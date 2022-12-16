@@ -41,6 +41,12 @@ This project has done with the huge support of my Microverse coding partners and
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Project presentation <a name="acknowledgements"></a>
+
+Link: https://www.loom.com/share/e108d45f0ae4486c9d6a40f7d45a76ba
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
