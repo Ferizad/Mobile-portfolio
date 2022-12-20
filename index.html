@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ferizad</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Ferizad Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
 
   <body class="bg_color4">
@@ -20,7 +19,7 @@
         <h3 class="logo"><a href="#">My Logo</a></h3>
 
         <nav class="nav1">
-          <img src="media/hamburger.png" alt="hamburger_image" />
+          <img class="hamburger_img" src="media/hamburger.png" alt="hamburger_image">
         </nav>
 
         <nav class="nav2">
@@ -75,7 +74,35 @@
       </article>
     </section>
 
-    <section class="works_section">
+    <section class=" hide1 modal_menu_container">
+
+      <article class="modal_menu_article">
+
+          <nav>
+              <ul class="list_none textdecoration">
+                  <li class="modal_flex1 ">
+                      <button type="button" class="close_hamburger"><img src="media/closemenu.png" alt=""></button>
+                  </li> 
+
+                  <li class="list_none">
+                      <a class="menu_option font1c textdecoration" href="#works">Portfolio</a>
+                  </li>
+
+                  <li class="list_none ">
+                      <a class="menu_option font1c textdecoration" href="#about">About</a>
+                  </li>
+
+                  <li class="list_none">
+                      <a class="menu_option font1c textdecoration" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </nav>
+
+      </article>
+
+  </section>
+  
+    <section id="works" class="works_section">
       <article class="article1 bg_color7">
         <figure class="figure1">
           <a href="#"><img src="media/jumbo1.jpg" alt="jumbo1_img" /></a>
@@ -459,7 +486,7 @@
       </article>
     </section>
 
-    <section class="about_self_section bg_color7">
+    <section id="about" class="about_self_section bg_color7">
       <article class="about_width1">
         <h3><a class="textdecoration font7" href="#">About Myself</a></h3>
 
@@ -552,7 +579,7 @@
       </article>
     </section>
 
-    <section class="bg_color7">
+    <section id="contact" class="bg_color7">
       <article class="contact_section">
         <div class="contact_form">
           <header>
@@ -612,5 +639,6 @@
         </div>
       </article>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
