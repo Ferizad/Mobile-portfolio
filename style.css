@@ -16,7 +16,6 @@
 
 .header1 h3 {
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -59,10 +58,9 @@
   font-size: 40px;
   color: #172b4d;
   line-height: 52px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 700;
   width: 290px;
-  font-style: bold;
 }
 
 .section1 p {
@@ -71,7 +69,7 @@
   line-height: 24px;
   width: 300px;
   font-weight: 500;
-  align-items: left;
+  align-items: flex-start;
   padding: 50px 0 0 0;
 }
 
@@ -80,7 +78,7 @@
   flex-direction: row;
   font-size: 16px;
   line-height: 24px;
-  align-items: left;
+  align-items: flex-start;
   color: #7f8cff;
   font-weight: 500;
   padding-top: 15px;
@@ -89,7 +87,7 @@
 .contacts ul {
   display: flex;
   gap: 20px;
-  align-items: left;
+  align-items: flex-start;
   list-style: none;
   padding-top: 15px;
   margin-bottom: 50px;
@@ -238,7 +236,7 @@
   padding-top: 16px;
   color: #172b4d;
   font-size: 32px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 700;
 }
 
@@ -280,7 +278,7 @@
   line-height: 24px;
   width: 300px;
   font-weight: 400;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .gridbox1 {
@@ -292,7 +290,7 @@
   width: 295px;
   color: #6070ff;
   font-size: 12px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 500;
 }
 
@@ -309,7 +307,7 @@
   width: 250px;
   color: #396df2;
   font-size: 17px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 500;
 }
 
@@ -317,7 +315,7 @@
   width: 295px;
   color: #396df2;
   font-size: 15px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 500;
 }
 
@@ -361,25 +359,23 @@
 .about_self_section {
   width: 90%;
   margin: auto;
-  padding: 40px 0 120 0;
+  padding: 40px 0 120px 0;
 }
 
 .font7 {
   width: 295px;
-  font-style: bold;
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .font7a {
   width: 295px;
   color: #172b4d;
   font-size: 20px;
-  font-style: bold;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 700;
   line-height: 52px;
 }
@@ -389,7 +385,7 @@
   flex-direction: row;
   font-size: 16px;
   line-height: 24px;
-  align-items: left;
+  align-items: flex-start;
   color: #7f8cff;
   font-weight: 500;
   padding-top: 15px;
@@ -428,7 +424,7 @@
 
 .about_section_align1 {
   background-color: #f7f7f9;
-  border: 1px solid none;
+  border: 1px solid;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -446,7 +442,7 @@
   width: 295px;
   color: #172b4d;
   font-size: 32px;
-  align-items: left;
+  align-items: flex-start;
   font-weight: 700;
 }
 
@@ -655,7 +651,7 @@ label {
     letter-spacing: 0;
     width: 620px;
     font-weight: 500;
-    align-items: left;
+    align-items: flex-start;
     padding: 0 0 0 0;
   }
 
@@ -723,7 +719,7 @@ label {
   .about_section_align1 img {
     padding: 10px 0 0 0;
     background-color: #f7f7f9;
-    border: 1px solid none;
+    border: 1px solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -829,7 +825,7 @@ label {
   .font7 {
     color: #091e42;
     font-size: 40px;
-    align-items: left;
+    align-items: flex-start;
     font-weight: 700;
     line-height: 24px;
   }
@@ -838,7 +834,7 @@ label {
     width: 295px;
     color: #344563;
     font-size: 20px;
-    align-items: left;
+    align-items: flex-start;
     font-weight: 500;
     line-height: 24px;
   }
@@ -863,19 +859,19 @@ label {
     color: #253858;
     line-height: 20px;
     font-size: 15px;
-    align-items: left;
+    align-items: flex-start;
     font-weight: 500;
   }
 
   .about_section_align1 {
     padding: 10px 2px 10px 2px;
     background-color: #f7f7f9;
-    border: 1px solid none;
+    border: 1px solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
   }
 
@@ -929,7 +925,7 @@ label {
     letter-spacing: 0;
     width: 715px;
     font-weight: 500;
-    align-items: left;
+    align-items: flex-start;
     padding: 0 0 0 0;
   }
 
@@ -993,7 +989,7 @@ label {
     letter-spacing: 0;
     width: 800px;
     font-weight: 500;
-    align-items: left;
+    align-items: flex-start;
     padding: 0 0 0 0;
   }
 
