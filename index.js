@@ -98,4 +98,24 @@ for (let i = 0; i < projectArr.length; i += 1) {
                 <li>${techArr[j]}</li>
               `;
   }
-  
+
+  myCard += `<article class="work-card">
+  <figure class="work-img">
+    <img src="${myObj.image}" alt="work screenshot" />
+  </figure>
+  <div class="work-text">
+    <header>
+      <h2>${myObj.name}</h2>
+    </header>
+    <div class="work-tools">
+    <ul>
+      ${uList}
+      </ul>
+    </div>
+    <div class="project-btn">
+      <button type="button" class='work-btn' ownIndex=${i}>See Project</button>
+    </div>
+  </div>
+</article>`;
+}
+cardContainer.innerHTML = myCard;
