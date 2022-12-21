@@ -204,17 +204,6 @@
   object-position: center;
 }
 
-.article1 .figure1 img,
-.article2 .figure1 img,
-.article3 .figure1 img,
-.article4 .figure1 img {
-  text-align: center;
-  width: 340px;
-  height: 225px;
-  object-fit: cover;
-  object-position: center;
-}
-
 .article1 .figure1 img:hover,
 .article2 .figure1 img:hover,
 .article3 .figure1 img:hover,
@@ -548,6 +537,11 @@ label {
 @media only screen and (min-width: 425px) {
   .section1 {
     border-bottom-left-radius: 100px;
+  }
+
+  .modal_menu_article {
+    width: 90%;
+    margin: auto;
   }
 
   .article1,
