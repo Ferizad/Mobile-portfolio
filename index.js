@@ -9,7 +9,7 @@ const cardsData = [
     id: 0,
     name: ['Tonic', 'Tonic'],
     description: [
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
     image: ['media/jumbo1.jpg', 'media/jumbo5.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
@@ -22,7 +22,7 @@ const cardsData = [
     id: 1,
     name: ['Multi-Post Stories', 'Multi-Post Stories'],
     description: [
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'Experimental content creation feature that allows users to add to an existing story over the course a day without spamming their friends.'],
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'Experimental content creation feature that allows users to add to an existing story over the course a day without spamming their friends.'],
     image: ['media/jumbo4.jpg', 'media/jumbo4b.jpg'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
@@ -35,7 +35,7 @@ const cardsData = [
     id: 2,
     name: ['Tonic', 'Facebook 360'],
     description:
-      ['A daily selection of privately personalized reads; no accounts or sign-ups required.', "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..."],
+      ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..."],
     image: ['media/jumbo3.jpg', 'media/jumbo1b.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
@@ -48,7 +48,7 @@ const cardsData = [
     id: 3,
     name: ['Multi-Post Stories', 'Uber Navigation'],
     description:
-      ['A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.'],
+      ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.'],
     image: ['media/jumbo4.jpg', 'media/jumbo2b.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
@@ -197,14 +197,15 @@ showPopupBtn.forEach((e) => {
                 <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[5]}</a></li>
             </ul>
             <footer>
-                <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Source</span>
+                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
+                    <span>See Live</span>
                     <img src="media/live_icon.png" alt="">
                 </button>
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Live</span>
+                    <span>See Source</span>
                     <img src="media/github_source.jpg" alt="">
                 </button>
+                
             </footer>
             
         </div>
