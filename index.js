@@ -127,38 +127,40 @@ worksSection.innerHTML = displayCard;
 
 const showPopupBtn = document.querySelectorAll('.seepopup');
 const popUpContainer = document.createElement('section');
+const mOverlay = document.querySelector('.m-overlay');
+
 popUpContainer.className = 'popup_section';
 popUpContainer.classList.add('bg_color6');
 showPopupBtn.forEach((e) => {
   e.addEventListener('click', () => {
     const btnIndex = e.getAttribute('index');
-
+    mOverlay.classList.remove('hide1');
     const popupEle = `
   <article class="popup_article bg_color7">
-<div class="popup_articlediv show1">
-    <header class="popup_flex1">
-        <h3><a class="textdecoration font1" href="#">${cardsData[btnIndex].name[0]}</a></h3>
-        <button type="button" class="close_popup "><img src="media/closepopup.png" alt=""></button>
-    </header>
-    <ul class="list1">
-        <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
-        <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-        <li class="textdecoration"><a href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
-        <li><a class="textdecoration font3" href="#">2015</a></li>
-    </ul>
-    <figure class="figure1">
-        <a href="#"><img src="${cardsData[btnIndex].image[0]}" alt="Tonic_img"></a>
-    </figure>
-    <article class="desc1">
-        <p>${cardsData[btnIndex].description[0]}</p>
-        <ul class="gridbox1 gridbox1b">
-            <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[0]}</a></li>
-            <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[1]}</a></li>
-            <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[2]}</a></li>
-        </ul>
-    </article>
-    <footer>
+    <div class="popup_articlediv show1">
+      <header class="popup_flex1">
+          <h3><a class="textdecoration font1" href="#">${cardsData[btnIndex].name[0]}</a></h3>
+          <button type="button" class="close_popup "><img src="media/closepopup.png" alt=""></button>
+      </header>
+      <ul class="list1">
+          <li><a class="textdecoration font2" href="#">CANOPY</a></li>
+          <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+          <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
+          <li class="textdecoration"><a href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+          <li><a class="textdecoration font3" href="#">2015</a></li>
+      </ul>
+      <figure class="figure1">
+          <a href="#"><img src="${cardsData[btnIndex].image[0]}" alt="Tonic_img"></a>
+      </figure>
+      <article class="desc1">
+          <p>${cardsData[btnIndex].description[0]}</p>
+          <ul class="gridbox1 gridbox1b">
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[0]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[1]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologies[2]}</a></li>
+          </ul>
+      </article>
+      <footer>
         <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
             <span>See Source</span>
             <img src="media/live_icon.png" alt="">
@@ -167,53 +169,53 @@ showPopupBtn.forEach((e) => {
             <span>See Live</span>
             <img src="media/github_source.jpg" alt="">
         </button>
-        
-    </footer>
-</div>
-<div class="popup_articlediv show2">
-    <header class="popup_flex1">
-        <h3><a class="textdecoration font1" href="#">${cardsData[btnIndex].name[0]}</a></h3>
-        <button type="button" class="close_popup"><img src="media/closepopup.png" alt=""></button>
-    </header> 
-    <ul class="list1 ul1">
-        <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
-        <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
-        <li><a class="textdecoration font3" href="#">2015</a></li>
-    </ul>
-    <figure class="figure2 ">
-        <a href="#"><img src="${cardsData[btnIndex].image[1]}" alt="Nature_img"></a>
-    </figure>
-    <article class="popup_flex2">
+          
+      </footer>
+    </div>
+    <div class="popup_articlediv show2">
+      <header class="popup_flex1">
+          <h3><a class="textdecoration font1" href="#">${cardsData[btnIndex].name[0]}</a></h3>
+          <button type="button" class="close_popup"><img src="media/closepopup.png" alt=""></button>
+      </header> 
+      <ul class="list1 ul1">
+          <li><a class="textdecoration font2" href="#">CANOPY</a></li>
+          <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+          <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
+          <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+          <li><a class="textdecoration font3" href="#">2015</a></li>
+      </ul>
+      <figure class="figure2 ">
+          <a href="#"><img src="${cardsData[btnIndex].image[1]}" alt="Nature_img"></a>
+      </figure>
+      <article class="popup_flex2">
         <p class="width80">${cardsData[btnIndex].description[1]}</p>
         <div>
-            <ul class="gridbox2">
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[0]}</a></li>
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[1]}</a></li>
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[2]}</a></li>
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[3]}</a></li>
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[4]}</a></li>
-                <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[5]}</a></li>
-            </ul>
-            <footer>
-                <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Source</span>
-                    <img src="media/live_icon.png" alt="">
-                </button>
-                <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Live</span>
-                    <img src="media/github_source.jpg" alt="">
-                </button>
-            </footer>
+          <ul class="gridbox2">
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[0]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[1]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[2]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[3]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[4]}</a></li>
+              <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[5]}</a></li>
+          </ul>
+          <footer>
+              <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
+                  <span>See Source</span>
+                  <img src="media/live_icon.png" alt="">
+              </button>
+              <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
+                  <span>See Live</span>
+                  <img src="media/github_source.jpg" alt="">
+              </button>
+          </footer>
             
         </div>
        
-    </article>
+      </article>
  
     
-</div>
-</article>
+    </div>
+  </article>
 `;
 
     const body = document.querySelector('body');
@@ -224,6 +226,7 @@ showPopupBtn.forEach((e) => {
     closePopup.forEach((e) => {
       e.addEventListener('click', () => {
         popUpContainer.remove();
+        mOverlay.classList.add('hide1');
       });
     });
   });
