@@ -293,12 +293,9 @@ showPopupBtn.forEach((e) => {
         <a href="#"><img src="${cardsData[btnIndex].image[1]}" alt="Nature_img"></a>
 
     </figure>
-
     <article class="popup_flex2">
         <p class="width80">${cardsData[btnIndex].description[1]}</p>
-
         <div>
-
             <ul class="gridbox2">
 
                 <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[0]}</a></li>
@@ -307,9 +304,7 @@ showPopupBtn.forEach((e) => {
                 <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[3]}</a></li>
                 <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[4]}</a></li>
                 <li class="background1"><a class="textdecoration font4" href="#">${cardsData[btnIndex].technologiesPop[5]}</a></li>
-
             </ul>
-
             <footer>
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
                     <span>See Live</span>
