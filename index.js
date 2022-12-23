@@ -255,12 +255,12 @@ showPopupBtn.forEach((e) => {
 
     <footer>
         <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
-            <span>See Source</span>
+            <span>See Live</span>
             <img src="media/live_icon.png" alt="">
         </button>
 
         <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
-            <span>See Live</span>
+            <span>See Source</span>
             <img src="media/github_source.jpg" alt="">
         </button>
         
@@ -312,12 +312,12 @@ showPopupBtn.forEach((e) => {
 
             <footer>
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Source</span>
+                    <span>See Live</span>
                     <img src="media/live_icon.png" alt="">
                 </button>
 
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Live</span>
+                    <span>See Source</span>
                     <img src="media/github_source.jpg" alt="">
                 </button>
             </footer>
